@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Registration | Utsaah 2027</title>
+</head>
+<body>
+
+<header>
+	<img src="assets/utsaah-logo.png" alt="Utsaah 2027 logo" width="90">
+	<h1>UTSAAH 2027</h1>
+	<p>Cultural and Technical Festival of Quad AI School of Technology, Patna</p>
+	<nav>
+		<a href="index.html">Home</a> |
+		<a href="events.html">Events</a> |
+		<a href="schedule.html">Schedule</a> |
+		<a href="register.html">Registration</a> |
+		<a href="contact.html">Contact</a>
+	</nav>
+	<hr>
+</header>
+
+<main>
+
+<section>
+	<h2>Registration Form</h2>
+	<p>
+		Fill this form to register for Utsaah 2027. Last date of registration is
+		5 February 2027. You will get a confirmation mail with your participant ID in
+		two working days.
+	</p>
+
+	<form action="#" method="post">
+
+		<fieldset>
+			<legend>Personal Details</legend>
+
+			<p>
+				<label for="name">Full Name</label><br>
+				<input type="text" id="name" name="name" size="40" required>
+			</p>
+
+			<p>
+				<label for="email">Email Address</label><br>
+				<input type="email" id="email" name="email" size="40" required>
+			</p>
+
+			<p>
+				<label for="phone">Phone Number</label><br>
+				<input type="tel" id="phone" name="phone" size="20" maxlength="10" required><br>
+				<small>Enter 10 digits only, without +91.</small>
+			</p>
+
+			<p>
+				<label for="college">College Name</label><br>
+				<input type="text" id="college" name="college" size="40"
+					value="Quad AI School of Technology">
+			</p>
+		</fieldset>
+
+		<br>
+
+		<fieldset>
+			<legend>Academic Details</legend>
+
+			<p>
+				<label for="dept">Department</label><br>
+				<select id="dept" name="dept" required>
+					<option value="">--- Select Department ---</option>
+					<option value="cse">Computer Science and Engineering</option>
+					<option value="ai">Artificial Intelligence and Data Science</option>
+					<option value="it">Information Technology</option>
+					<option value="ece">Electronics and Communication</option>
+					<option value="mech">Mechanical Engineering</option>
+					<option value="civil">Civil Engineering</option>
+					<option value="bba">Business Administration</option>
+					<option value="other">Other</option>
+				</select>
+			</p>
+
+			<p>
+				Year of Study:<br>
+				<input type="radio" id="y1" name="year" value="1" required>
+				<label for="y1">1st Year</label>
+				<input type="radio" id="y2" name="year" value="2">
+				<label for="y2">2nd Year</label>
+				<input type="radio" id="y3" name="year" value="3">
+				<label for="y3">3rd Year</label>
+				<input type="radio" id="y4" name="year" value="4">
+				<label for="y4">4th Year</label>
+				<input type="radio" id="y5" name="year" value="pg">
+				<label for="y5">Post Graduate</label>
+			</p>
+		</fieldset>
+
+		<br>
+
+		<fieldset>
+			<legend>Event Preferences</legend>
+
+			<p>Select the events you want to participate in. Any three events = Rs 650 combo pass.</p>
+
+			<p>
+				<input type="checkbox" id="e1" name="events" value="code-sprint">
+				<label for="e1">Code Sprint 24</label><br>
+				<input type="checkbox" id="e2" name="events" value="battle-of-bands">
+				<label for="e2">Battle of Bands</label><br>
+				<input type="checkbox" id="e3" name="events" value="nritya-dhara">
+				<label for="e3">Nritya Dhara</label><br>
+				<input type="checkbox" id="e4" name="events" value="roborace">
+				<label for="e4">RoboRace Arena</label><br>
+				<input type="checkbox" id="e5" name="events" value="nukkad-natak">
+				<label for="e5">Nukkad Natak</label><br>
+				<input type="checkbox" id="e6" name="events" value="shutterbug">
+				<label for="e6">Shutterbug Hunt</label>
+			</p>
+
+			<p>
+				<label for="tshirt">T-shirt Size</label><br>
+				<select id="tshirt" name="tshirt">
+					<option value="s">Small</option>
+					<option value="m" selected>Medium</option>
+					<option value="l">Large</option>
+					<option value="xl">Extra Large</option>
+				</select>
+			</p>
+
+			<p>
+				<label for="msg">Any other information</label><br>
+				<textarea id="msg" name="msg" rows="5" cols="50"
+					placeholder="Team name and members, equipment you are bringing, food preference etc."></textarea>
+			</p>
+
+			<p>
+				<input type="checkbox" id="updates" name="updates" value="yes" checked>
+				<label for="updates">Send me schedule updates on email</label><br>
+				<input type="checkbox" id="terms" name="terms" value="agreed" required>
+				<label for="terms">I agree to follow the festival rules</label>
+			</p>
+		</fieldset>
+
+		<br>
+
+		<p>
+			<input type="submit" value="Submit Registration">
+			<input type="reset" value="Reset">
+		</p>
+
+	</form>
+</section>
+
+<hr>
+
+<section>
+	<h2>After Registration</h2>
+
+	<h3>Payment</h3>
+	<p>
+		Fee can be paid at the registration desk on the day of your event, or online using
+		the link sent in the confirmation mail. Event wise fees are listed on the
+		<a href="events.html">Events page</a>.
+	</p>
+
+	<h3>Any doubt?</h3>
+	<p>
+		Mail us at <a href="mailto:utsaah2027@quadai.edu.in">utsaah2027@quadai.edu.in</a> or
+		check the <a href="contact.html">Contact page</a> for coordinator numbers.
+	</p>
+</section>
+
+</main>
+
+<hr>
+
+<footer>
+	<p>Utsaah 2027, Quad AI School of Technology, Bailey Road, Patna</p>
+	<p>
+		<a href="index.html">Home</a> |
+		<a href="events.html">Events</a> |
+		<a href="schedule.html">Schedule</a> |
+		<a href="register.html">Registration</a> |
+		<a href="contact.html">Contact</a>
+	</p>
+</footer>
+
+</body>
+</html>
